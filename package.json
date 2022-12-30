@@ -10,5 +10,8 @@
     },
     "repository": "github.com/YisusGaming/execution-php",
     "author": "YisusGaming",
-    "license": "CC-BY-NC-ND-4.0"
+    "license": "CC-BY-NC-ND-4.0",
+    "dependencies": {
+        "commander": "^9.4.1"
+    }
 }

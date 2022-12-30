@@ -1,0 +1,9 @@
+{
+    "name": "execution-php",
+    "version": "1.0.0",
+    "description": "An HTTP server for your PHP apps",
+    "main": "build/index.js",
+    "repository": "github.com/YisusGaming/execution-php",
+    "author": "YisusGaming",
+    "license": "CC-BY-NC-ND-4.0"
+}

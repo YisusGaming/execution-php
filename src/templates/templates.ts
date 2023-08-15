@@ -3,6 +3,12 @@ import path from 'path';
 
 import './execphp.config.json';
 
+export interface ExecPHPConfigJson {
+    port: number,
+    outDir: string,
+    sourceDir: string
+}
+
 /**
  * Creates a configuration files and folders
  * @param path The path to the folder to be initialized

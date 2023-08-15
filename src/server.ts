@@ -10,7 +10,9 @@ app.use((req, res, next) => {
     next();
 });
 
-export default function listen(port?: number) {
+export default function listen(port?: number, publicDir?: string) {
+    app.use(express.static(publicDir ?? "")); // setup static
+    
     console.clear();
     console.log('Starting HTTP server...');
     app.listen(port ?? app.get('port'), () => {

@@ -29,9 +29,10 @@ export function initialize(dirPath: string) {
     fs.copy(path.join(__dirname, 'execphp.config.json'), path.join(fullPath, 'execphp.config.json'))
         .then(() => {
             console.log("Created configuration file 'execphp.config.json'");
-            console.timeEnd("done in");
         })
         .catch((err) => {
             console.log(`Create configuration file 'execphp.config.json' failed due to ${err}`);
         });
+    
+    console.timeEnd("done in");
 }
